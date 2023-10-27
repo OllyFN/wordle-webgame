@@ -1,0 +1,29 @@
+.wordle-wrapper {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 32px;
+  border: 2px solid black;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.33);
+  border-radius: 8px;
+}
+
+.word-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  margin-top: 16px;  
+}
+
+.wordle-new-game {
+  width: 100%;
+  line-height: 200%;
+  outline: none;
+  background: none;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}

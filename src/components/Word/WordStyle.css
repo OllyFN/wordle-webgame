@@ -1,0 +1,33 @@
+.char-wrapper {
+  display: flex;
+  gap: 32px;
+}
+.char {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  user-select: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  &[data-guess] {
+    outline: 3px solid;
+  }
+  &[data-guess='1'] {
+    outline-color: green;
+    border-color: green;
+  }
+  &[data-guess='2'] {
+    outline-color: orange;
+    border-color: orange;
+  }
+  &[data-guess='3'] {
+    outline-color: red;
+    border-color: red;
+  }
+  
+}
